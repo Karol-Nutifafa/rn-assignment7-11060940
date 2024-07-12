@@ -1,0 +1,95 @@
+body{
+    background-color: #000;
+}
+
+.fashion-store {
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+}
+
+.our-story {
+    padding: 2rem;
+    text-align: center;
+}
+
+.our-story h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.items-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.item {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.item h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+.item p {
+    margin: 0 0 1rem 0;
+    color: #666;
+}
+
+.price {
+    font-size: 1.2rem;
+    color: #e74c3c;
+}
+
+
+.item-button {
+    background-color: #000;
+    color: white;
+    padding: 0; /* Remove any default padding */
+}
+
+
+.link-no-decoration {
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Keeps default text color */
+}

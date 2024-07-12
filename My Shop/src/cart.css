@@ -1,0 +1,46 @@
+/* cart.css */
+
+.cart {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cart h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.cart ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.cart li img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.cart li p {
+    margin: 0;
+}
+
+.cart p.empty-message {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+}
+
+.btn{
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
